@@ -40,7 +40,7 @@ Para executar este sistema, você precisará dos seguintes itens instalados:
 ### Passo 1: Clonar o Repositório
 
 Execute o comando abaixo para clonar o repositório do GitHub:
-git clone <link-do-repositorio>
+git clone https://github.com/Andria-RS/SD_Project
 
 Acesse o diretório do projeto:
 cd <nome-do-diretorio>
@@ -52,7 +52,7 @@ cd <nome-do-diretorio>
 Certifique-se de que o Docker está em execução e utilize o comando abaixo para construir e executar a aplicação:
 docker-compose up
 
-Isso iniciará a aplicação e ela estará disponível no endereço: http://localhost:<porta>.
+Isso iniciará a aplicação e ela estará disponível no endereço: http://localhost:8080.
 
 ---
 
@@ -73,11 +73,6 @@ docker pull <seu-username>/<nome-da-imagem>
 
 - API.md: Documentação detalhada das rotas da API.
 - docker-compose.yml: Configuração para executar a aplicação em containers Docker.
-- postman_collection.json: Arquivo de coleção do Postman para facilitar os testes.
-- src/: Código-fonte da aplicação.
+- index.js: Código-fonte da aplicação.
 
 ---
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
