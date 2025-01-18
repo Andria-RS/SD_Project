@@ -5,10 +5,9 @@ FROM node:18
 WORKDIR /app
 
 # Copie os arquivos de dependências para o container
-# COPY package*.json ./
 COPY . /app
-
 RUN ls
+
 # Instale as dependências
 RUN npm install
 
